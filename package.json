@@ -1,0 +1,27 @@
+{
+  "name": "emirapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fp-ts": "^1.10.0",
+    "ramda": "^0.26.0",
+    "ramda-fantasy": "^0.8.0",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamthewill/emirAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamthewill/emirAPI/issues"
+  },
+  "homepage": "https://github.com/williamthewill/emirAPI#readme"
+}
