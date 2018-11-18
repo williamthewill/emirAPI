@@ -1,0 +1,5 @@
+export type POST = 'POST'
+export type GET = 'GET'
+export type PUT = 'PUT'
+export type DELETE = 'DELETE'
+export type PATCH = 'PATCH'

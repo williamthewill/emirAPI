@@ -1,1 +1,4 @@
-/node_module
+*.log
+.env
+dist/
+node_modules/

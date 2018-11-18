@@ -1,0 +1,43 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"diagnostics": false,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"noErrorTruncation": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitReturns": false,
+		"noUnusedLocals": true,
+		"noUnusedParameters": false,
+		"outDir": "./dist/src",
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"strict": true,
+		"target": "es6",
+		"lib": ["es5", "es6", "dom", "es2017"],
+		"paths": {
+			"#logger": ["src/setup/logger"],
+			"#database": ["src/setup/database"],
+
+			"#utils/*": ["src/utils/*"],
+			"#utils": ["src/utils/index"],
+			"#services/*": ["src/services/*"],
+			"#routes/*": ["src/routes/*"],
+			"#models/*": ["src/models/*"],
+			"#handlers/*": ["src/handlers/*"],
+			"#daos/*": ["src/database/*"],
+
+			"#src/*": ["src/*"],
+			"*": [
+				"node_modules/*",
+				"src/_vendor/*"
+			]
+		}
+	},
+	"include": [
+		"src/**/*",
+		"tests/**/*"
+	]
+}
